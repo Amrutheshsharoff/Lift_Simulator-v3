@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    font-family: 'Arial', sans-serif;
+}
+
+#container {
+    height: 100%;
+    position: relative;
+    overflow: auto;
+    margin: 0px auto;
+    margin-bottom: 100px;
+    width: 100%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.input-section {
+    padding: 20px;
+    border: 2px solid #333;
+    border-radius: 10px;
+    background-color: #fff;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.input-section input {
+    width: 100px;
+    padding: 10px;
+    margin: 5px;
+    border: 2px solid #777;
+    border-radius: 5px;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+}
+
+.input-section h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+    text-decoration: underline;
+}
+
+input {
+    width: 80px;
+    padding: 8px;
+    margin-left: 10px;
+    border-radius: 5px solid black;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.input-section input:hover {
+    background-color: #333;
+    color: #fff;
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.floor {
+    box-shadow: -2px 0 0px 2px #000;
+    height: 200px;
+    position: relative;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    box-sizing: border-box;
+    border-right: 1px;
+    display: flex;
+    border-top: 1px solid #ccc;
+    background-color: #f9f9f9;
+}
+
+.t {
+    background-color: #ffa500;
+    border: 2px solid #333;
+    border-radius: 50%;
+    padding: 5px;
+    transition: background-color 0.3s ease;
+    position: absolute;
+    /* Set position to absolute */
+    left: 0;
+    padding: 10px;
+    transition: transform 0.3s ease;
+}
+
+.t:hover {
+    background-color: #ff8c00;
+    cursor: pointer;
+    text-decoration: underline;
+    transform: translateY(-5px);
+}
+
+.lift {
+    background-color: #00ced1;
+    border: 2px solid #333;
+    width: 75px;
+    height: 100px;
+    position: absolute;
+    display: flex;
+    bottom: 0px;
+    overflow: hidden;
+    z-index: 2;
+    margin-left: 30px;
+    left: 50%;
+    transition: bottom 2.2s ease-in-out;
+    background-size: cover;
+    background-position: 100%;
+}
+
+.doors {
+    background-color: #2c2c72;
+    width: 50%;
+    height: 100%;
+    transition: transform 1s linear;
+    border: 2px solid #333;
+}
+
+@media screen and (max-width: 0px) {
+    .input-section {
+        display: inline-block;
+    }
+}
