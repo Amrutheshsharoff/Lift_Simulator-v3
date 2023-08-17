@@ -33,7 +33,7 @@ https://amrutheshsharoff.github.io/Lift_Simulator-v3/
 
  A feature for dynamically creating lifts have been added.
 
-##CONCEPTS APPLIED
+CONCEPTS APPLIED
 
  1. JAVASCRIPT
 
