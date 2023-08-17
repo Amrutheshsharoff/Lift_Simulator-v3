@@ -31,7 +31,8 @@ The Lift Simulator is an engaging and interactive project that simulates the mov
 A feature for dynamically creating floors have been added.
 
 A feature for dynamically creating lifts have been added.
-CONCEPTS APPLIED
+
+##CONCEPTS APPLIED
 
 1. JAVASCRIPT
 
